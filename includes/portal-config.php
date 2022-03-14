@@ -25,8 +25,20 @@ switch(THIS_PAGE){
 
     case 'contactme.php':
         $title = "Alex's IT162 Contact Page";
-        $logo = 'fa-id-card';
+        $logo = 'fa-solid fa-id-card';
         $PageID = 'Contact Alex';
+    break;
+
+    case 'aia.php':
+        $title = "Alex's IT162 AIA Page";
+        $logo = 'fa-solid fa-book';
+        $PageID = 'AIA';
+    break;
+
+    case 'flowchart.php':
+        $title = "Alex's IT162 Flowchart Page";
+        $logo = 'fa-solid fa-align-center';
+        $PageID = 'Flowchart';
     break;
 
     default:
@@ -40,7 +52,7 @@ $nav1['index.php'] = "Welcome";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.php'] = "AIA";
 $nav1['flowchart.php'] = "Flowchart";
-$nav1['fp/index.php'] = "Final Project";
+$nav1['fp/template.php'] = "Final Project";
 $nav1['contactme.php'] = "Contact Alex";
 
 
