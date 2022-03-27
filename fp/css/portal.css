@@ -1,4 +1,4 @@
-/* My it162 Portal Website Styles */
+/* My IT162 Final Project Styles */
 
 html {
     background-color:black;
@@ -10,11 +10,19 @@ html {
        
 }
 
+.logodiv img {
+    width:150px;
+    box-shadow:10px 5px 5px rgb(122, 6, 6);
+}
 main.wrapper {
-    background-color:#fff;
+    background-color:black;
     overflow:auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
 
+.g-recaptcha {
+    display: inline-block;
 }
 
 h1 {
@@ -22,11 +30,11 @@ h1 {
 }
 h1>a {
     text-decoration: none;
-    color:rgb(2, 2, 2);
+    color: rgb(122, 6, 6);
 }
 
 .logo {
-    color:rgb(190, 25, 25);
+    color:rgb(122, 6, 6);
     margin-left:1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
@@ -38,7 +46,27 @@ h2.pageID {
 
 .info {
     text-align: center;
-    font-size: larger;
+    font-size: 20pt;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bio {
+    padding:10px;
+}
+
+img.solo {
+    width:300px;
+    box-shadow:10px 5px 5px rgb(122, 6, 6);
 }
 
 /* Embed Responsively Rules! */
@@ -64,6 +92,11 @@ footer {
     text-align: center;
 }
 
+img.collage {
+    width:95%;
+}
+
+
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
@@ -81,13 +114,20 @@ footer {
 	
     img.tablet, img.phone {
        	display:none;
-    	}  
+    }  
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
         		background-color: #ccc;
         		color:#000;
-   	 }
+   	}
+    
+    img.desktop {
+        width:90%;
+        height:400px;
+        object-fit:cover;
+        box-shadow: 10px 5px 5px rgb(122, 6, 6);
+    }
 }
 
 
@@ -103,7 +143,8 @@ footer {
     img.tablet {
        		width:50%;
             float: right;
-            margin: 5px;
+            margin: 15px;
+            box-shadow: 10px 5px 5px rgb(122, 6, 6);
     }
     
     img.desktop, img.phone {
@@ -127,10 +168,15 @@ footer {
     img.phone {
        		width: 75%;
             display:inline-block;
+            box-shadow: 10px 5px 5px rgb(122, 6, 6);
     }
     
     img.tablet, img.desktop {
        	display:none;
     	}  
+    
+    .column {
+        width:100%;
+    }
 
 }

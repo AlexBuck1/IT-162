@@ -1,6 +1,6 @@
 <footer>
       <p><small>&copy; 2020-<?=date("Y")?> by 
-          <a href="contact.php">Alex Buck</a>, All Rights Reserved ~ 
+          <a href="contactus.php">Alex Buck</a>, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>

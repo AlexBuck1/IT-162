@@ -25,7 +25,7 @@
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
-      <li><a href="fp/index.php">Final Project</a></li>
+      <li><a href="fp/template.php">Final Project</a></li>
       <li><a href="contactme.php">Contact Alex</a></li>
 -->
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
